@@ -1,0 +1,199 @@
+* {
+    margin:0;
+    font-family: arial;
+    border: border-box;
+}
+
+
+
+.navbar {
+    height: 60px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.Nav-logo {
+    height: 50px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+
+
+.logo {
+    background-image: url("amazo-logo.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size:  0.85rem;
+}
+
+.panel-deals{
+    font-size:  0.9rem;
+    font-weight: 700;
+}
+
+.form1{
+    height: 450px;
+    width: 400px;
+    margin-top: 50px;
+    background-color: #e2e7e6;
+    border: black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 500px;
+}
+
+.sign1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+
+}
+.sign2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+} 
+
+.mobile{
+    padding-left: 80px;
+    margin-left: 50px;
+    height: 30px;
+    width: 220px;
+}
+
+.cont{
+    background-color: yellow;
+    border-radius: 10px;
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    height: 30px;
+    width: 280px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.last{
+    font-size: 0.8rem;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hr1{
+    width: 300px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.last1{
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.last2{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+/* .hr3{ 
+    width: 100px;
+    margin-left: 800px;
+    margin-bottom: 30px;
+    
+} */
+.last3{
+    background-color: white;
+    margin-left: 650px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+}
+.hr2{
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 30px;
+    
+}
+
+
+.Create{
+    padding-left: 80px;
+    margin-left: 550px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 30px;
+    width: 220px;
+}
+
+.hr4{
+    margin-bottom: 30px;
+}
+
+/* footer */
+
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height:80PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.pages{
+    font-size: 0.7rem; 
+    text-align: center;
+    padding-top: 25;
+}
+
+.copyright{
+    margin-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    background-color: #0f1111;
+    color: white;
+}
